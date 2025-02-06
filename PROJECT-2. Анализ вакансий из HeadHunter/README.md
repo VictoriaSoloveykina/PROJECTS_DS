@@ -1,12 +1,5 @@
 ## PROJECT-2. Анализ вакансий из HeadHunter
 
-Параметры подключения:
-
-DBNAME = 'project_sql'
-USER = 'skillfactory'
-PASSWORD = 'cCkxxLVrDE8EbvjueeMedPKt'
-HOST = '84.201.134.129'
-PORT = 5432
 
 
 Все необходимые таблицы находятся в схеме public базы данных project_sql
