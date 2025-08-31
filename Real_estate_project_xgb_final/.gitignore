@@ -1,0 +1,53 @@
+# Модели и артефакты ML
+*.pkl
+*.pkl.gz
+*.joblib
+xgb_*.pkl
+custom_model_pipeline.pkl
+preprocessing_pipeline.pkl
+encoding_metadata*.pkl
+
+# Закодированные датасеты (их можно сгенерировать)
+encoded_features*.csv
+X_final.csv
+y_final.csv
+
+# Виртуальное окружение Python
+venv/
+.venv/
+env/
+ENV/
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Среды разработки (IDE)
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Логи и системные файлы
+*.log
+logs/
+.pytest_cache/
+.coverage
+
+# Операционные системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker (опционально, если используете)
+docker-compose.override.yml
