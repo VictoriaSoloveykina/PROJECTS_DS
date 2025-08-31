@@ -1,0 +1,13 @@
+# === docker-compose.yml ===
+version: '3.8'
+
+services:
+  realestate-api:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./models:/app/models
+    restart: unless-stopped
